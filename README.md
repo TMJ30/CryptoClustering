@@ -1,8 +1,3 @@
 # CryptoClustering
 
-A combination of Python and unsupervised machine learning was used to predict if cryptocurrencies are affected by 24-hour or 7-day price changes. Initially, we were tasked with finding the best value of k and producing the first cluster of cryptocurrencies with K-means using the scaled dataframe. Afterwards, we used the original scaled dataframe to optimize the clusters utilizing the Principal Component Analysis approach. The K-means and PCA approach reported the optimial number of clusters to utilize is 4. In comparing 
-
-
-
-
-Scaled DataFrame...then Optimize Clusters with Principal Component Analysis Cluster Cryptocurrencies with K-means Using the PCA DataFrame What is the impact of using fewer features to cluster the data using K-Means?
+A combination of Python and unsupervised machine learning was used to predict if cryptocurrencies are affected by 24-hour or 7-day price changes. We were tasked with two approaches to finding the best value of k, the K-Means and Principal Component Analysis. After executing both approaches, K-Means and PCA resulted in the ideal number of cluster being 4. Upon further analysis between the cluster chart created with K-Means and other with PCA, it is evident that PCA is a more suitable approach. The impact of using fewer features to cluster the data improves the clustering performance by making the data visualizations clearer and more comprehensible. In addition, it also reduces the amount of outliers and irrelevant data may confuse the clustering algorithim. 
