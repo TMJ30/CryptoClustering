@@ -14,7 +14,14 @@ The workflow includes data preparation, clustering with K-Means, principal compo
   * Used the **elbow method** to determine optimal clusters
   * Tested k-values from 1 to 11
   * Computed inertia and plotted the elbow curve
-
+3. Cluster Cryptocurrencies Using K-Means
+  * Applied K-Means to the scaled DataFrame
+  * Added cluster labels to the DataFrame
+  * Created an interactive scattor plot with **hvPlot:**
+    * **x-axis:** `price_change_percentage_24h`
+    * **y-axis:** `price_change_percentage_7d`
+    * Points colord by cluster
+    * Hover shows `coin_id`
 
 ## **Findings**
 
