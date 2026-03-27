@@ -34,6 +34,6 @@ The workflow includes data preparation, clustering with K-Means, principal compo
   * Producing clearer and more comprehensible visualizations
   * Reducing outliers and irrelevant data that could confuse the algorithm
 * Using fewer features with PCA helps create **more meaningful clusters** while retaining most of the variance
-> All detailed calculations, cluster charts, and interactive plots are available in [crypto_clustering.ipynb]()
+> All detailed calculations, cluster charts, and interactive plots are available in [crypto_clustering.ipynb](https://github.com/TMJ30/CryptoClustering/blob/main/Crypto_Clustering.ipynb)
 
 After executing both approaches, K-Means and PCA resulted in the ideal number of clusters being 4. Upon further analysis of the individual cluster charts created for each approach, it is evident that PCA is a more suitable. The impact of using fewer features to cluster the data improves the clustering performance by producing clearer visualizations and more comprehensible. In addition, it also reduces the number of outliers and irrelevant data that could potentially confuse the clustering algorithm.
