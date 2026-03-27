@@ -6,15 +6,15 @@ This project applies **unsupervised learning** to group cryptocurrencies based o
 The workflow includes data preparation, clustering with K-Means, principal component analysis (PCA), and visualization of cryptoccurrency groups.
 
 ## Project Workflow
-1. Prepare the Data
+1. **Prepare the Data**
   * Import crypocurrency data from CSV
   * Normalized features using `StandardScaler`
   * Created a scaled DataFrame with `coin_id` as the index
-2. Find the Best k Using the Scaled DataFrame
+2. **Find the Best k Using the Scaled DataFrame**
   * Used the **elbow method** to determine optimal clusters
   * Tested k-values from 1 to 11
   * Computed inertia and plotted the elbow curve
-3. Cluster Cryptocurrencies Using K-Means
+3. **Cluster Cryptocurrencies Using K-Means**
   * Applied K-Means to the scaled DataFrame
   * Added cluster labels to the DataFrame
   * Created an interactive scattor plot with **hvPlot:**
@@ -22,6 +22,11 @@ The workflow includes data preparation, clustering with K-Means, principal compo
     * **y-axis:** `price_change_percentage_7d`
     * Points colord by cluster
     * Hover shows `coin_id`
+ 4. **Optimize Clusters with PCA**
+    * Reduced features to 3 principal components
+    * Explained variance of 3 components: **High coverage of original data variance**
+    * Created a PCA DataFrame with `coin_id` as the index
+    * Repeated K-Means clustering on PCA-reduced data
 
 ## **Findings**
 
