@@ -7,9 +7,13 @@ The workflow includes data preparation, clustering with K-Means, principal compo
 
 ## Project Workflow
 1. Prepare the Data
-* Import crypocurrency data from CSV
-* Normalized features using `StandardScaler`
-* Created a scaled DataFrame with `coin_id` as the index
+  * Import crypocurrency data from CSV
+  * Normalized features using `StandardScaler`
+  * Created a scaled DataFrame with `coin_id` as the index
+2. Find the Best k Using the Scaled DataFrame
+  * Used the **elbow method** to determine optimal clusters
+  * Tested k-values from 1 to 11
+  * Computed inertia and plotted the elbow curve
 
 
 ## **Findings**
