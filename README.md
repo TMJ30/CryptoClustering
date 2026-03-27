@@ -22,11 +22,11 @@ The workflow includes data preparation, clustering with K-Means, principal compo
     * **y-axis:** `price_change_percentage_7d`
     * Points colord by cluster
     * Hover shows `coin_id`
- 4. **Optimize Clusters with PCA**
-    * Reduced features to 3 principal components
-    * Explained variance of 3 components: **High coverage of original data variance**
-    * Created a PCA DataFrame with `coin_id` as the index
-    * Repeated K-Means clustering on PCA-reduced data
+4. **Optimize Clusters with PCA**
+  * Reduced features to 3 principal components
+  * Explained variance of 3 components: **High coverage of original data variance**
+  * Created a PCA DataFrame with `coin_id` as the index
+  * Repeated K-Means clustering on PCA-reduced data
 
 ## **Findings**
 
