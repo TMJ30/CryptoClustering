@@ -1,7 +1,15 @@
-# CryptoClustering
+# CryptoClustering with K-Mean & PCA
 
-A combination of Python and unsupervised machine learning was used to predict whether cryptocurrencies are affected by 24-hour or 7-day price changes. We were tasked with analyzing the results and differences of the K-Means and Principal Component Analysis approach.
+## Overview
+This project applies **unsupervised learning** to group cryptocurrencies based on their short-term price changes. Using **Python, scikit-learn, and PCA**, we analyze how 24-hour and 7-day price changes influence clustering and explore dimensionality reduction to optimize clustering performance.
 
+The workflow includes data preparation, clustering with K-Means, principal component analysis (PCA), and visualization of cryptoccurrency groups.
+
+## Project Workflow
+1. Prepare the Data
+* Import crypocurrency data from CSV
+* Normalized features using `StandardScaler`
+* Created a scaled DataFrame with `coin_id` as the index
 
 
 ## **Findings**
